@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Contore.ViewModel"
+             x:DataType="viewmodel:MainViewModel"
+             x:Class="Contore.MainPage">
+
+    <Grid RowDefinitions="*,*,*"
+          ColumnDefinitions="*,*,*">
+        
+        <Button Grid.Row="1"
+            Grid.Column="1"
+            Text="Contore"
+            TextColor="Ivory"
+            FontSize="18"
+            HeightRequest="50"
+            BorderWidth="2"
+            BorderColor="DimGrey"
+            CornerRadius="3"
+            Background="Transparent"
+            Command="{Binding TapCommand}"
+    
+            />
+
+
+
+    </Grid>
+
+</ContentPage>
