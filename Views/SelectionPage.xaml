@@ -3,15 +3,105 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contore.Views.SelectionPage"
              xmlns:viewmodel="clr-namespace:Contore.ViewModel"
-             x:DataType="viewmodel:SelectionViewModel"
+             xmlns:models="clr-namespace:Contore.Model"
              Shell.NavBarIsVisible="False">
-    <Grid RowDefinitions="*,*,*,*"
-          ColumnDefinitions="*,*,*">
-        <Frame Grid.Row="1"
-               Grid.ColumnSpan="3"
-               Background="BlanchedAlmond"/>
-        <Frame Grid.Row="3"
-               Grid.ColumnSpan="3"
-               Background="Chartreuse"/>
+    
+    <Grid RowDefinitions="Auto,*,Auto,*">
+        <Label Text="Translation"
+               FontSize="20"
+               FontFamily="Lobster" 
+               Grid.Row="0"
+               Margin="20,20,0,10"/>
+
+        <Frame Grid.Row="1" Background="#222222" Margin="5" Padding="15,5,15,12">
+            <Grid HorizontalOptions="Center" Background="Transparent">
+                <CollectionView ItemsSource="{Binding Languages}" SelectionMode="Single">
+                    <CollectionView.Header>
+                        <Label Text="From" HorizontalOptions="Center"/>
+                    </CollectionView.Header>
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" HorizontalItemSpacing="0" VerticalItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="5"
+                                   Margin="0,8,0,8"
+                                   CornerRadius="1"
+                                   BackgroundColor="Transparent"
+                                   BorderColor="#cccccc"
+                                   WidthRequest="90"
+                                   HeightRequest="40">
+                                
+                                <Grid RowDefinitions="*,*">
+                                    <Label Text="{Binding Symbol}"
+                                           Grid.Row="0"
+                                           TextTransform="Uppercase"
+                                           FontSize="10"
+                                           FontFamily="StalinstOne"
+                                           Padding="0"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center"/>
+
+                                    <Label Text="{Binding LanguageName}"
+                                           Grid.Row="1"
+                                           FontSize="11"
+                                           FontFamily="sans-serif-condensed"
+                                           Padding="0"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </Frame>
+
+        <Label Text="{x:Static models:Icons.TranslateIcon}" Style="{x:StaticResource MaterialIcons}" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" Margin="10"></Label>
+
+        <Frame Grid.Row="3" Background="#222222" Margin="5" Padding="15,5,15,12">
+            <Grid HorizontalOptions="Center" Background="Transparent">
+                <CollectionView ItemsSource="{Binding Languages}" SelectionMode="Single">
+                    <CollectionView.Header>
+                        <Label Text="To" HorizontalOptions="Center"/>
+                    </CollectionView.Header>
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" HorizontalItemSpacing="0" VerticalItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="5"
+                           Margin="0,8,0,8"
+                           CornerRadius="1"
+                           BackgroundColor="Transparent"
+                           BorderColor="#cccccc"
+                           WidthRequest="90"
+                           HeightRequest="40">
+                                <Grid RowDefinitions="*,*">
+                                    <Label Text="{Binding Symbol}"
+                                   Grid.Row="0"
+                                   TextTransform="Uppercase"
+                                   FontSize="10"
+                                   FontFamily="StalinstOne"
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+
+                                    <Label Text="{Binding LanguageName}"
+                                   Grid.Row="1"
+                                   FontSize="11"
+                                   FontFamily="sans-serif-condensed"
+                                   Padding="0"
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </Frame>
     </Grid>
 </ContentPage>

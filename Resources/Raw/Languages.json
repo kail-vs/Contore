@@ -1,0 +1,504 @@
+{
+  "Languages": [
+    {
+      "index": 1,
+      "symbol": "af",
+      "language": "Afrikaans"
+    },
+    {
+      "index": 2,
+      "symbol": "am",
+      "language": "Amharic"
+    },
+    {
+      "index": 3,
+      "symbol": "ar",
+      "language": "Arabic"
+    },
+    {
+      "index": 4,
+      "symbol": "ast",
+      "language": "Asturian"
+    },
+    {
+      "index": 5,
+      "symbol": "az",
+      "language": "Azerbaijani"
+    },
+    {
+      "index": 6,
+      "symbol": "ba",
+      "language": "Bashkir"
+    },
+    {
+      "index": 7,
+      "symbol": "be",
+      "language": "Belarusian"
+    },
+    {
+      "index": 8,
+      "symbol": "bg",
+      "language": "Bulgarian"
+    },
+    {
+      "index": 9,
+      "symbol": "bn",
+      "language": "Bengali"
+    },
+    {
+      "index": 10,
+      "symbol": "br",
+      "language": "Breton"
+    },
+    {
+      "index": 11,
+      "symbol": "bs",
+      "language": "Bosnian"
+    },
+    {
+      "index": 12,
+      "symbol": "ca",
+      "language": "Catalan"
+    },
+    {
+      "index": 13,
+      "symbol": "ceb",
+      "language": "Cebuano"
+    },
+    {
+      "index": 14,
+      "symbol": "cs",
+      "language": "Czech"
+    },
+    {
+      "index": 15,
+      "symbol": "cy",
+      "language": "Welsh"
+    },
+    {
+      "index": 16,
+      "symbol": "da",
+      "language": "Danish"
+    },
+    {
+      "index": 17,
+      "symbol": "de",
+      "language": "German"
+    },
+    {
+      "index": 18,
+      "symbol": "el",
+      "language": "Greek"
+    },
+    {
+      "index": 19,
+      "symbol": "en",
+      "language": "English"
+    },
+    {
+      "index": 20,
+      "symbol": "es",
+      "language": "Spanish"
+    },
+    {
+      "index": 21,
+      "symbol": "et",
+      "language": "Estonian"
+    },
+    {
+      "index": 22,
+      "symbol": "fa",
+      "language": "Persian"
+    },
+    {
+      "index": 23,
+      "symbol": "ff",
+      "language": "Fulah"
+    },
+    {
+      "index": 24,
+      "symbol": "fi",
+      "language": "Finnish"
+    },
+    {
+      "index": 25,
+      "symbol": "fr",
+      "language": "French"
+    },
+    {
+      "index": 26,
+      "symbol": "fy",
+      "language": "Western Frisian"
+    },
+    {
+      "index": 27,
+      "symbol": "ga",
+      "language": "Irish"
+    },
+    {
+      "index": 28,
+      "symbol": "gd",
+      "language": "Scottish Gaelic"
+    },
+    {
+      "index": 29,
+      "symbol": "gl",
+      "language": "Galician"
+    },
+    {
+      "index": 30,
+      "symbol": "gu",
+      "language": "Gujarati"
+    },
+    {
+      "index": 31,
+      "symbol": "ha",
+      "language": "Hausa"
+    },
+    {
+      "index": 32,
+      "symbol": "he",
+      "language": "Hebrew"
+    },
+    {
+      "index": 33,
+      "symbol": "hi",
+      "language": "Hindi"
+    },
+    {
+      "index": 34,
+      "symbol": "hr",
+      "language": "Croatian"
+    },
+    {
+      "index": 35,
+      "symbol": "ht",
+      "language": "Haitian Creole"
+    },
+    {
+      "index": 36,
+      "symbol": "hu",
+      "language": "Hungarian"
+    },
+    {
+      "index": 37,
+      "symbol": "hy",
+      "language": "Armenian"
+    },
+    {
+      "index": 38,
+      "symbol": "id",
+      "language": "Indonesian"
+    },
+    {
+      "index": 39,
+      "symbol": "ig",
+      "language": "Igbo"
+    },
+    {
+      "index": 40,
+      "symbol": "ilo",
+      "language": "Iloko"
+    },
+    {
+      "index": 41,
+      "symbol": "is",
+      "language": "Icelandic"
+    },
+    {
+      "index": 42,
+      "symbol": "it",
+      "language": "Italian"
+    },
+    {
+      "index": 43,
+      "symbol": "ja",
+      "language": "Japanese"
+    },
+    {
+      "index": 44,
+      "symbol": "jv",
+      "language": "Javanese"
+    },
+    {
+      "index": 45,
+      "symbol": "ka",
+      "language": "Georgian"
+    },
+    {
+      "index": 46,
+      "symbol": "kk",
+      "language": "Kazakh"
+    },
+    {
+      "index": 47,
+      "symbol": "km",
+      "language": "Central Khmer"
+    },
+    {
+      "index": 48,
+      "symbol": "kn",
+      "language": "Kannada"
+    },
+    {
+      "index": 49,
+      "symbol": "ko",
+      "language": "Korean"
+    },
+    {
+      "index": 50,
+      "symbol": "lb",
+      "language": "Letzeburgesch"
+    },
+    {
+      "index": 51,
+      "symbol": "lg",
+      "language": "Ganda"
+    },
+    {
+      "index": 52,
+      "symbol": "ln",
+      "language": "Lingala"
+    },
+    {
+      "index": 53,
+      "symbol": "lo",
+      "language": "Lao"
+    },
+    {
+      "index": 54,
+      "symbol": "lt",
+      "language": "Lithuanian"
+    },
+    {
+      "index": 55,
+      "symbol": "lv",
+      "language": "Latvian"
+    },
+    {
+      "index": 56,
+      "symbol": "mg",
+      "language": "Malagasy"
+    },
+    {
+      "index": 57,
+      "symbol": "mk",
+      "language": "Macedonian"
+    },
+    {
+      "index": 58,
+      "symbol": "ml",
+      "language": "Malayalam"
+    },
+    {
+      "index": 59,
+      "symbol": "mn",
+      "language": "Mongolian"
+    },
+    {
+      "index": 60,
+      "symbol": "mr",
+      "language": "Marathi"
+    },
+    {
+      "index": 61,
+      "symbol": "ms",
+      "language": "Malay"
+    },
+    {
+      "index": 62,
+      "symbol": "my",
+      "language": "Burmese"
+    },
+    {
+      "index": 63,
+      "symbol": "ne",
+      "language": "Nepali"
+    },
+    {
+      "index": 64,
+      "symbol": "nl",
+      "language": "Dutch"
+    },
+    {
+      "index": 65,
+      "symbol": "no",
+      "language": "Norwegian"
+    },
+    {
+      "index": 66,
+      "symbol": "ns",
+      "language": "Northern Sotho"
+    },
+    {
+      "index": 67,
+      "symbol": "oc",
+      "language": "Occitan (post 1500)"
+    },
+    {
+      "index": 68,
+      "symbol": "or",
+      "language": "Oriya"
+    },
+    {
+      "index": 69,
+      "symbol": "pa",
+      "language": "Punjabi"
+    },
+    {
+      "index": 70,
+      "symbol": "pl",
+      "language": "Polish"
+    },
+    {
+      "index": 71,
+      "symbol": "ps",
+      "language": "Pashto"
+    },
+    {
+      "index": 72,
+      "symbol": "pt",
+      "language": "Portuguese"
+    },
+    {
+      "index": 73,
+      "symbol": "ro",
+      "language": "Romanian"
+    },
+    {
+      "index": 74,
+      "symbol": "ru",
+      "language": "Russian"
+    },
+    {
+      "index": 75,
+      "symbol": "sd",
+      "language": "Sindhi"
+    },
+    {
+      "index": 76,
+      "symbol": "si",
+      "language": "Sinhalese"
+    },
+    {
+      "index": 77,
+      "symbol": "sk",
+      "language": "Slovak"
+    },
+    {
+      "index": 78,
+      "symbol": "sl",
+      "language": "Slovenian"
+    },
+    {
+      "index": 79,
+      "symbol": "so",
+      "language": "Somali"
+    },
+    {
+      "index": 80,
+      "symbol": "sq",
+      "language": "Albanian"
+    },
+    {
+      "index": 81,
+      "symbol": "sr",
+      "language": "Serbian"
+    },
+    {
+      "index": 82,
+      "symbol": "ss",
+      "language": "Swati"
+    },
+    {
+      "index": 83,
+      "symbol": "su",
+      "language": "Sundanese"
+    },
+    {
+      "index": 84,
+      "symbol": "sv",
+      "language": "Swedish"
+    },
+    {
+      "index": 85,
+      "symbol": "sw",
+      "language": "Swahili"
+    },
+    {
+      "index": 86,
+      "symbol": "ta",
+      "language": "Tamil"
+    },
+    {
+      "index": 87,
+      "symbol": "th",
+      "language": "Thai"
+    },
+    {
+      "index": 88,
+      "symbol": "tl",
+      "language": "Tagalog"
+    },
+    {
+      "index": 89,
+      "symbol": "tn",
+      "language": "Tswana"
+    },
+    {
+      "index": 90,
+      "symbol": "tr",
+      "language": "Turkish"
+    },
+    {
+      "index": 91,
+      "symbol": "uk",
+      "language": "Ukrainian"
+    },
+    {
+      "index": 92,
+      "symbol": "ur",
+      "language": "Urdu"
+    },
+    {
+      "index": 93,
+      "symbol": "uz",
+      "language": "Uzbek"
+    },
+    {
+      "index": 94,
+      "symbol": "vi",
+      "language": "Vietnamese"
+    },
+    {
+      "index": 95,
+      "symbol": "wo",
+      "language": "Wolof"
+    },
+    {
+      "index": 96,
+      "symbol": "xh",
+      "language": "Xhosa"
+    },
+    {
+      "index": 97,
+      "symbol": "yi",
+      "language": "Yiddish"
+    },
+    {
+      "index": 98,
+      "symbol": "yo",
+      "language": "Yoruba"
+    },
+    {
+      "index": 99,
+      "symbol": "zh",
+      "language": "Chinese"
+    },
+    {
+      "index": 100,
+      "symbol": "zu",
+      "language": "Zulu"
+    }
+  ]
+}

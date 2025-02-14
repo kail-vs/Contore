@@ -1,4 +1,5 @@
-﻿using Contore.ViewModel;
+﻿using Contore.Model;
+using Contore.ViewModel;
 
 namespace Contore
 {
@@ -8,9 +9,7 @@ namespace Contore
         {
             InitializeComponent();
             BindingContext = vm;
+
         }
-
-        
     }
-
 }

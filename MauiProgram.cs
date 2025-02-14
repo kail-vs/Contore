@@ -1,4 +1,5 @@
-﻿using Contore.ViewModel;
+﻿using Contore.Model;
+using Contore.ViewModel;
 using Contore.Views;
 using Microsoft.Extensions.Logging;
 
@@ -15,6 +16,8 @@ namespace Contore
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("StalinistOneRegular.ttf", "StalinstOne");
+                    fonts.AddFont("MaterialIconsRegular.ttf", "MaterialIcon");
                 });
 
             builder.Services.AddSingleton<MainPage>();
@@ -31,6 +34,8 @@ namespace Contore
 
             builder.Services.AddTransient<TranslationPage>();
             builder.Services.AddTransient<TranslationViewModel>();
+
+            builder.Services.AddSingleton<LanguageService>();
 
 
 #if DEBUG
